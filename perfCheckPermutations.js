@@ -1,7 +1,7 @@
 function perfCheckPermutations(inputString){
   // Empty input strings or with only 1 letter are palindromes.
   // Don't waste processing power. 
-  if (inputString<=1) return true;
+  if (inputString.length<=1) return true;
   
   //Process input string.
   let letters={};
